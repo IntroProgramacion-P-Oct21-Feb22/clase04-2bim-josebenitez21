@@ -5,6 +5,7 @@
  */
 package ejemplos;
 
+
 /**
  *
  * @author reroes
@@ -16,18 +17,21 @@ public class Ejemplo02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
+    
+   int a=obtenerSuma (10);
+    double b= obtenerMultiplicacion(600);
+        System.out.printf("Resultado de los valores a operar:"
+                + "%d\n%.2f",a,b);
     }
     
     
-    public int obtenerSuma(int a){
-        int b;
+    public static int obtenerSuma(int a){
+        int b ;
         b = a;
         return b;
     }
     
-    public double obtenerMultiplicacion(int b){
+    public static double obtenerMultiplicacion(int b){
         double resultado;
         resultado = (double)b/10;
         return resultado;
